@@ -1,0 +1,16 @@
+### register
+POST http://localhost:3000/api/v1/register
+
+{
+    "name": "zumy",
+    "email": "me@zumy.com",
+    "password": "123456"
+}
+
+### login
+POST http://localhost:3000/api/v1/login
+
+{
+    "email": "me@zumy.com",
+    "password": "1234561b"
+}
